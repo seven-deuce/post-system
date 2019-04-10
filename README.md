@@ -1,4 +1,4 @@
-<p>Posting and Commenting System by React.js</p>
+<h1>Posting and Commenting System by React.js</h1>
 <p>To run the project, use: <strong>npm start</strong></p>
 <p>A live demo could be seen here:</p>
 <p>The client-side entrance file is located at : src/index.js</p>
