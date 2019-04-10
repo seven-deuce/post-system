@@ -5,10 +5,25 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "apollo-boost": "^0.3.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "react-apollo": "^2.5.2",
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.1.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "react": "react-scripts start",
+    "app": "cd src/server && nodemon app.js",
+    "start": "concurrently \"npm run app\" \"npm run react\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
