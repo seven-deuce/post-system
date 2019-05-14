@@ -1,5 +1,4 @@
 const express = require("express")
-let app = express()
 const fs = require("fs")
 const path = require("path")
 const urlEncodedParser = express.urlencoded({ extended: false })
@@ -11,6 +10,7 @@ const schema = require("./graphql/schema")
 const resolver = require("./graphql/resolver")
 const jwtAuth = require("./middlewares/jwtAuth")
 const cors = require("cors")
+const app = express()
 app.use(cors())
 
 //check to see if the user is authenticated or not:
