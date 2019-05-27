@@ -1,6 +1,6 @@
 <h1>Posting and Commenting System by React.js</h1>
 <p>To run the project, use: <strong>npm start</strong></p>
-<p>A live demo could be seen here:</p> <a href="http://post.eu-4.evennode.com/">http://post2.eu-4.evennode.com/</a>
+<p>A live demo could be seen here:</p> <a href="http://post2.eu-4.evennode.com/">http://post2.eu-4.evennode.com/</a>
 <p>The client-side entrance file is located at : src/index.js</p>
 <p>The server-side entrance file is located at: /src/server/app.js</p>
 <p>In order to run it locally, you must change the mongoDB settings on the file above.</p>
